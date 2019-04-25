@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/0_1_Start_Logo.unity
+    guid: 0df7da0d717c360409ad7882cda92c1e
+  - enabled: 1
+    path: Assets/Scenes/0_2_Start_Logo.unity
+    guid: 2bafac280a6fe63419b9e6f8d98a5dc0
+  - enabled: 1
+    path: Assets/Scenes/1_Game_Start.unity
+    guid: 0f9115b1a67753b4abcbf4f644b55f98
+  - enabled: 1
+    path: Assets/Scenes/2_0_Main_Menu.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/2_1_Game_Start.unity
+    guid: 76b9c29e275bb7c4b977cf09534ff749
+  - enabled: 1
+    path: Assets/Scenes/2_2_Character_Select.unity
+    guid: 132bca6920301304cba187316dfa0716
+  - enabled: 1
+    path: Assets/Scenes/2_3_Ranking.unity
+    guid: 6786ed3cad272094ca1d90c5f0fb3047
+  - enabled: 1
+    path: Assets/Scenes/2_4_Achivement.unity
+    guid: 1d7aec6914834634c962c44cd7d9deea
+  - enabled: 1
+    path: Assets/Scenes/2_5_Option.unity
+    guid: c1f485e577c081a4f9ba2f4a4b62a939
+  - enabled: 1
+    path: Assets/Scenes/3_Loding.unity
+    guid: 5d5a586f6bee57941b0824957e546a1f
+  - enabled: 1
+    path: Assets/Scenes/4_Ingame1.unity
+    guid: ce468d3ce6350b247992688f3cb1e119
+  - enabled: 1
+    path: Assets/Scenes/4_Ingame2.unity
+    guid: 563fbccd80d22384dba849438f0759bc
+  - enabled: 1
+    path: Assets/Scenes/4_Ingame3.unity
+    guid: b92ece04facbcff479c7c5cac8570eb8
+  - enabled: 1
+    path: Assets/Scenes/4_Ingame4.unity
+    guid: 1cadc9274ef72bd4a8cc2945628e5e60
+  - enabled: 1
+    path: Assets/Scenes/5_Result_Screen_Clear.unity
+    guid: bb66f402e15b1f345853094f14713a8d
+  - enabled: 1
+    path: Assets/Scenes/5_Result_Screen_Over.unity
+    guid: 11830888714af3d4e9ed601cbc8cebc6
+  m_configObjects: {}

@@ -1,0 +1,80 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Select_Box : MonoBehaviour
+{
+    float timer;
+    float a;
+
+    int kimozzi = 1;
+    private SpriteRenderer Box;
+
+    public SpriteRenderer Seven;
+    public SpriteRenderer Cover_It_Up;
+    public SpriteRenderer Feel_So_Good;
+    public SpriteRenderer Cake;
+
+    public void Touch_1()
+    {
+        kimozzi = 1;
+    }
+    public void Touch_2()
+    {
+        kimozzi = 2;
+    }
+    public void Touch_3()
+    {
+        kimozzi = 3;
+    }
+    public void Touch_4()
+    {
+        kimozzi = 4;
+    }
+
+    // Use this for initialization
+    void Start()
+    {
+        Box = GameObject.Find("MUSIC_SELECT_BOX").GetComponent<SpriteRenderer>();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+       
+        if (kimozzi == 1)
+        {
+            Box.transform.position = new Vector3(transform.position.x, 2.521935f, transform.position.z);
+            Seven.enabled = true;
+            Feel_So_Good.enabled = false;
+            Cake.enabled = false;
+            Cover_It_Up.enabled = false;
+        }
+
+        if (kimozzi == 2)
+        {
+            Box.transform.position = new Vector3(transform.position.x, 1.47935f, transform.position.z);
+            Seven.enabled = false;
+            Feel_So_Good.enabled = false;
+            Cake.enabled = true;
+            Cover_It_Up.enabled = false;
+        }
+        if (kimozzi == 3)
+        {
+            Box.transform.position = new Vector3(transform.position.x, 0.385f, transform.position.z);
+            Seven.enabled = false;
+            Feel_So_Good.enabled = true;
+            Cake.enabled = false;
+            Cover_It_Up.enabled = false;
+        }
+        if (kimozzi == 4)
+        {
+            Box.transform.position = new Vector3(transform.position.x, -0.725f, transform.position.z);
+            Seven.enabled = false;
+            Feel_So_Good.enabled = false;
+            Cake.enabled = false;
+            Cover_It_Up.enabled = true;
+        }
+
+    }
+}
